@@ -1,5 +1,6 @@
 #include <iostream>
+#include "include/helloLibrary.hpp"
 
-void helloLibrary() {
-    std::cout << "Hello, world!\n";
+void test() {
+    std::cout << "Hello, Library!\n";
 }

@@ -5,14 +5,6 @@ set(SOURCES
     helloLibrary.cpp)
 
 set(HEADERS
-    helloLibrary.hpp)
-
-include(CTest)
-enable_testing()
+    include/helloLibrary.hpp)
 
 add_library(HelloLibrary SHARED ${SOURCES} ${HEADERS})
-
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
