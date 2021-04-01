@@ -6,9 +6,9 @@ enable_testing()
 
 add_subdirectory(helloLibrary)
 
-link_directories(/home/garyliu/cpp_project/HelloCPP/build/helloLibrary)
+link_directories(./build/helloLibrary)
 
-include_directories(/home/garyliu/cpp_project/HelloCPP/helloLibrary/include)
+include_directories(./helloLibrary/include)
 
 add_executable(HelloCPP main.cpp)
 
