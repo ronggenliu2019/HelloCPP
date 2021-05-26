@@ -1,7 +1,3 @@
-//
-// Created by ronggenliu on 9/9/18.
-//
-
 #include <iostream>
 #include "helloLibrary.hpp"
 
