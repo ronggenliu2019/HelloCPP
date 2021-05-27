@@ -6,8 +6,9 @@ int main(void)
     i = 1;
     j = 10;
     printf("i is %d, j is %d. %d.\n", i, j);
+    i = 2;
     printf("decimal i is %#d, octal i is %#o, hexadecimal i is %#x.\n", i, i, i);
-
+    i = 3;
     unsigned int signed_i;
     unsigned short int signed_short_i;
     unsigned long int signed_long_i;
