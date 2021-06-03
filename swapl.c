@@ -11,11 +11,11 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void exchange(int *n, int *m) {
-    printf("n = %d, m = %d.\n", *n, *m);
+void exchange(int * n, int * m) {
+    printf("    n = %d, m = %d.\n", *n, *m);
     int temp = *n;
-    n = m;
-    m = &temp;
-    printf("after exchange，n = %d, m = %d.\n", *n, *m);
+    *n = *m;
+    *m = temp;
+    printf("    after exchange，n = %d, m = %d.\n", *n, *m);
 }
 

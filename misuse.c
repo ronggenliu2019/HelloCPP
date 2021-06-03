@@ -9,7 +9,7 @@ int main(void)
     return 0;
 }
 
-int imax(n, m)
+int imax(int n, int m)
 {
     return (n > m ? n : m);
 }
